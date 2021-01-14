@@ -1,25 +1,30 @@
-.container{
-    margin-bottom: 100px;
+body{
+    font-family: 'Poppins', sans-serif;
 }
-.orange-bg{
+
+.nav-link{
+    color: black;
+}
+.banner, .subscribe{
     background-color: #fceae8;
+    padding: 20px 40px;
     border-radius: 10px;
 }
-.carousel-item{
-    padding: 20px 40px;
+.grab{
+    color: green;
 }
-.price{
-    color: #FF136F;
+.fas{
+    margin-right: 5px;
 }
-.buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+.pre-order-button{
+    background-image: linear-gradient(to bottom, green 0%,#A4BC46 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
 }
-.cat1, .cat2, .cat3{
+.cat1, .cat2{
     padding: 10px 30px;
     border-radius: 10px;
 }
@@ -29,8 +34,8 @@
 .cat2{
     background-color: orchid;
 }
-.cat3{
-    background-color: blue;
+.categories{
+    display: flex;
 }
 .categories h1{
     color: white;
@@ -46,13 +51,36 @@
 .card-footer{
     background-color: white;
     border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-#subscribe{
-    height: 300px;
+.shadow{
+    display: flex;
 }
-#subscribe h6{
-    color: gray;
+.info-image{
+    height: 70px;
 }
+.center{
+    margin-left: 20px;
+}
+.about-contact{
+    height: 600px;
+    background-color: honeydew;
+}
+
 footer{
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .categories{
+        display: block;
+    }
+    .shadow{
+        display: block;
+    }
+    .center{
+        text-align: center;
+    }
+    
 }
