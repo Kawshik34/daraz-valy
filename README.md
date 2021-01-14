@@ -1,3 +1,3 @@
-# panda-commerce
+# daraz-valy
 
-### [Live site](https://programminghero1.github.io/panda-commerce/)
+### [Live site](https://kawshik34.github.io/daraz-valy/)

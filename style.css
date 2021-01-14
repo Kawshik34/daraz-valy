@@ -8,6 +8,12 @@ body{
 .nav-link{
     color: black;
 }
+.last-child{
+    color: white!important;
+}
+.last-child:hover{
+    text-decoration: none;
+}
 .banner, .subscribe{
     background-color: #fceae8;
     padding: 20px 40px;
